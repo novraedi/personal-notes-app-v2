@@ -31,7 +31,7 @@ class NoteInput extends Component {
             <input
               className="add-new-page__input__title"
               type="text"
-              placeholder="Beri judul..."
+              placeholder="Masukan Judul Catatan..."
               required
               value={this.state.title}
               onChange={this.onTitleChangeEventHandler}
